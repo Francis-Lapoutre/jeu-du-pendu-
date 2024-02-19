@@ -1,0 +1,37 @@
+# depslib dependency file v1.0
+1707670650 source:c:\jeu_du_pendu\pendu_fonction.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<string.h>
+	"PENDU_fonction.h"
+
+1707395045 c:\jeu_du_pendu\pendu_fonction.h
+
+1708071560 source:c:\jeu_du_pendu\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<time.h>
+	<string.h>
+	<stddef.h>
+	"PENDU_fonction.h"
+
+1707651882 source:c:\users\thiba\desktop\jeu_du_pendu\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<time.h>
+	<string.h>
+	<stddef.h>
+	"PENDU_fonction.h"
+
+1707395045 c:\users\thiba\desktop\jeu_du_pendu\pendu_fonction.h
+
+1707670650 source:c:\users\thiba\desktop\jeu_du_pendu\pendu_fonction.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<string.h>
+	"PENDU_fonction.h"
+
