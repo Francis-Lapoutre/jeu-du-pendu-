@@ -35,3 +35,21 @@
 	<string.h>
 	"PENDU_fonction.h"
 
+1714656903 source:c:\jeu-du-pendu-\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<time.h>
+	<string.h>
+	<stddef.h>
+	"PENDU_fonction.h"
+
+1714656903 c:\jeu-du-pendu-\pendu_fonction.h
+
+1714656903 source:c:\jeu-du-pendu-\pendu_fonction.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<string.h>
+	"PENDU_fonction.h"
+

@@ -23,7 +23,7 @@ char rejouer[2]; //alloue toujours de l'espace memoire stv modifier la chaine pl
 
 do
 {
-printf("Veuillez selectionner un nombre entre 1 et 30");
+printf("Veuillez selectionner un nombre entre 1 et 15");
 
 printf("\n\n");
 int nombre;

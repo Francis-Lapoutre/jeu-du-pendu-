@@ -28,12 +28,12 @@
         scanf("%d", ptrNombre); ///scanf lis le nombre que ptrNombre doit envoyer à la variable pris en compte dans la fonction choixdunombre ! ici il l'envoie à "pointeur" qui fait le relai hors de la
                                                  ///fonction et l'envoie à l'adresse de "nombre" ! Dans le cas de scanf, le déréférencement n'est pas nécessaire car scanf s'attend à recevoir une adresse mémoire (un pointeur),
                                                 ///et ptrNombre est déjà un pointeur. C'est pourquoi vous ne mettez pas une étoile devant ptrNombre dans le contexte de scanf.
-        if (*ptrNombre > 30 || *ptrNombre < 1)
+        if (*ptrNombre > 15 || *ptrNombre < 1)
            {
             printf("Veuillez selectionner un nombre entre 1 et 30 \n\n");
            }
 
-    } while (*ptrNombre >30 || *ptrNombre <1);
+    } while (*ptrNombre > 15 || *ptrNombre <1);
    }
 
 
