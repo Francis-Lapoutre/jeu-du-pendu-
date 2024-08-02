@@ -18,16 +18,16 @@
 
 
 
- void choixdunombre(int *ptrNombre) ///lorsque vous appelez choixdunombre, vous permettez à cette fonction de modifier la valeur de la variable qu'elle prends en compte (pointeur).
-                                   /// Puis dans le main.c la variable pointeur qui est une variable de type pointeur lol va directement envoyer la valeur qu'on lui à envoyer
-                                   /// (via la fonction choixdunombre) à l'adresse vers laquelle il pointe ! en aucun cas il modifie ca propre valeur puisque sa valeur est une autre adresse
+ void choixdunombre(int *ptrNombre) ///lorsque vous appelez choixdunombre, vous permettez Ã  cette fonction de modifier la valeur de la variable qu'elle prends en compte (pointeur).
+                                   /// Puis dans le main.c la variable pointeur qui est une variable de type pointeur lol va directement envoyer la valeur qu'on lui Ã  envoyer
+                                   /// (via la fonction choixdunombre) Ã  l'adresse vers laquelle il pointe ! en aucun cas il modifie ca propre valeur puisque sa valeur est une autre adresse
                                    /// ici c'est celle de nombre ! c'est un exemple de son utilisation.. dans le cas present c'est un peu comme un relai, mais on aurait pu faire plus simple
-                                   /// en demandant à la fonction dans le main.c d'envoyer la valeur directement à l'adresse de nombre comme ceci : choixdunombre(int &nombre) .
+                                   /// en demandant Ã  la fonction dans le main.c d'envoyer la valeur directement Ã  l'adresse de nombre comme ceci : choixdunombre(int &nombre) .
     {
      do {
-        scanf("%d", ptrNombre); ///scanf lis le nombre que ptrNombre doit envoyer à la variable pris en compte dans la fonction choixdunombre ! ici il l'envoie à "pointeur" qui fait le relai hors de la
-                                                 ///fonction et l'envoie à l'adresse de "nombre" ! Dans le cas de scanf, le déréférencement n'est pas nécessaire car scanf s'attend à recevoir une adresse mémoire (un pointeur),
-                                                ///et ptrNombre est déjà un pointeur. C'est pourquoi vous ne mettez pas une étoile devant ptrNombre dans le contexte de scanf.
+        scanf("%d", ptrNombre); ///scanf lis le nombre que ptrNombre doit envoyer Ã  la variable pris en compte dans la fonction choixdunombre ! ici il l'envoie au "pointeur" qui fait le relai hors de la
+                                                 ///fonction et l'envoie Ã  l'adresse de "nombre" ! Dans le cas de scanf, le dÃ©rÃ©fÃ©rencement n'est pas nÃ©cessaire car scanf s'attend Ã  recevoir une adresse mÃ©moire (un pointeur),
+                                                ///et ptrNombre est dÃ©jÃ  un pointeur. C'est pourquoi vous ne mettez pas une Ã©toile devant ptrNombre dans le contexte de scanf.
         if (*ptrNombre > 15 || *ptrNombre < 1)
            {
             printf("Veuillez selectionner un nombre entre 1 et 30 \n\n");
@@ -136,14 +136,14 @@ void jeu(int tailledumot, char mot[])
 
     char lettrestrouvees[tailledumot];
 
-    //memset = memory seting     marche pour les tableau de char prédefinie pas pour les chaine de char..
-                                 //Et encore moins pour les tableaux d'entier numéraire !
+    //memset = memory seting     marche pour les tableau de char prÃ©definie pas pour les chaine de char..
+                                 //Et encore moins pour les tableaux d'entier numÃ©raire !
 
     memset(lettrespasbonnes, ' ', 10);           //On remplie toute les cases de notre tableau.
     memset(lettrestrouvees, ' ', tailledumot);  //Utilisation de sizeof pour plus tard
 
     lettrespasbonnes[9] = '\0';               //On initialise le caractere de fin de ligne
-    lettrestrouvees[tailledumot] = '\0';     //à la derniere position du tableau
+    lettrestrouvees[tailledumot] = '\0';     //Ã  la derniere position du tableau
 
 
 

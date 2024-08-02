@@ -9,4 +9,4 @@ char* choixdumot(int nombre,char mot[]);
 
 void jeu(int tailledumot,char mot[]);
 
-#endif // PENDU_FONCTION_H_INCLUDED
+#endif 

@@ -6,7 +6,7 @@
 #include <stddef.h>
 
 #include "PENDU_fonction.h"
-
+#include "PENDU_fonction.c"
 
 
 
@@ -32,14 +32,14 @@ choixdunombre(&nombre);
 
 printf("\n\n");
                            //si tu veux remplacer par : char* mot; ca marche aussi mais c'est dangereux.. alloue tjrs un espace
-                           //mémoire dédier à ton mot.. ca evite que le programme occupe l'espace mémoire par autre chose !
+                           //mÃ©moire dÃ©dier Ã  ton mot.. ca evite que le programme occupe l'espace mÃ©moire par autre chose !
 
 char mot[11];
                             /// char* mot = choixdumot(nombre); AVEC UTILISATION DE : return mot; DANS LA FONCTION NE MARCHE PAS
-                           /*Retourner l'adresse d'une variable locale (mot dans choixdumot) à partir d'une fonction
-                             et l'utiliser en dehors de cette fonction peut entraîner un comportement indéfini,
-                             car cette zone de mémoire peut être utilisée après la sortie de la fonction.
-                             Ainsi, bien que le code puisse compiler, il ne fonctionnera pas comme prévu. */
+                           /*Retourner l'adresse d'une variable locale (mot dans choixdumot) Ã  partir d'une fonction
+                             et l'utiliser en dehors de cette fonction peut entrainner un comportement indÃ©fini,
+                             car cette zone de mÃ©moire peut Ãªtre utilisÃ©e aprÃ¨s la sortie de la fonction.
+                             Ainsi, bien que le code puisse compiler, il ne fonctionnera pas comme prÃ©vu. */
 choixdumot(nombre,mot);
 
 
@@ -109,7 +109,7 @@ printf("\n\n");
 //LE RETURN PEUT RENVOYER CE QUE TU VEUX (A SPECIFIER DANS LA FONCTION),
 //MAIS IL RENVERRA QU'UNE SEULE VALEUR !
 
-//Le break a un effet de sortie immédiate de la boucle la plus proche dans laquelle il est contenu,
+//Le break a un effet de sortie immÃ©diate de la boucle la plus proche dans laquelle il est contenu,
 //quel que soit le nombre de niveaux d'imbrication d'instructions if.
 
 
